@@ -1,0 +1,44 @@
+﻿S.No,Service / Area,"Application 
+Name",DE,CH,NL,UK,IE,BE,Instance,Hosting,Licensee,Design,Test,L1,L2/L3,Product Vendor,Employee
+APP_001,OSS,Office 365,0,1,0,0,1,0,Shared,On-Prem,Internal,Microsoft,https://www.microsoft.com/nl-nl/microsoft-365,<Vendor>,<Vendor>,Microsoft,1
+APP_002,DWP,Office 365,1,1,1,1,1,1,Shared,On-Prem,Mixed,Microsoft,https://www.microsoft.com/nl-nl/microsoft-365,<Vendor>,<Vendor>,Microsoft,1
+APP_003,DWP,Acrobat,0,1,1,0,0,0,Shared,On-Prem,Mixed,Adobe,https://get.adobe.com/reader/otherversions/,<Vendor>,<Vendor>,Adobe,1
+APP_004,DWP,Oracle E-Business Suite,1,1,1,1,1,1,Shared,On-Prem,Internal,Oracle,https://www.oracle.com/applications/ebusiness/,<Vendor>,<Vendor>,Oracle,0
+APP_005,ISP,Office 365,1,1,1,1,1,0,Dedicated,On-Prem,Internal,Microsoft,https://www.microsoft.com/nl-nl/microsoft-365,<Vendor>,<Vendor>,Microsoft,1
+APP_006,B2B,Office 365,1,,0,1,0,0,Shared,On-Prem,Internal,Microsoft,https://www.microsoft.com/nl-nl/microsoft-365,<Vendor>,<Vendor>,Microsoft,1
+APP_007,WEB,Office 365,1,1,1,0,1,0, Dedicated ,On-Prem,Internal,Microsoft,https://www.microsoft.com/nl-nl/microsoft-365,<Vendor>,<Vendor>,Microsoft,1
+APP_008,DWP,Cognos Analytics,0,1,0,1,1,1,Shared,On-Prem,Internal,IBM,https://www.ibm.com/docs/en/cognos-analytics/11.2.0?topic=manuals,<Vendor>,<Vendor>,IBM,0
+APP_009,MWI,Office 365,1,1,1,1,1,0,Shared,On-Prem,Internal,Microsoft,https://www.microsoft.com/nl-nl/microsoft-365,<Vendor>,<Vendor>,Microsoft,1
+APP_010,OSS,Acrobat,1,1,1,0,1,0,Shared,On-Prem,Internal,Adobe,https://get.adobe.com/reader/otherversions/,<Vendor>,<Vendor>,Adobe,1
+APP_011,OSS,Oracle E-Business Suite,1,1,1,0,1,0,Dedicated,On-Prem,Internal,Oracle,https://www.oracle.com/applications/ebusiness/,<Vendor>,<Vendor>,Oracle,0
+APP_012,OSS,Cognos Analytics,0,0,0,0,0,0,Dedicated,On-Prem,Internal,IBM,https://www.ibm.com/docs/en/cognos-analytics/11.2.0?topic=manuals,<Vendor>,<Vendor>,IBM,0
+APP_013,BSS,Office 365,0,0,1,0,0,0,Shared,On-Prem,Internal,Microsoft,https://www.microsoft.com/nl-nl/microsoft-365,<Vendor>,<Vendor>,Microsoft,1
+APP_014,ISP,Acrobat,0,1,0,0,0,0,Dedicated,On-Prem,Internal,Adobe,https://get.adobe.com/reader/otherversions/,<Vendor>,<Vendor>,Adobe,1
+APP_015,OSS,AutoCAD,1,1,1,0,1,0,Dedicated,On-Prem,Internal,Autodesk,https://www.autodesk.com/products/autocad/overview?term=1-YEAR&tab=subscription&plc=ACDIST,<Vendor>,<Vendor>,<Vendor>,0
+APP_018,OSS,Webex,1,1,1,0,1,0,Shared,On-Prem,Internal,Cisco,<Vendor>,<Vendor>,<Vendor>,Cisco,1
+APP_020,OSS,TurboTax,1,1,1,1,1,0,Dedicated,On-Prem,Internal,Intuit,https://turbotax.intuit.com/,<Vendor>,<Vendor>,Intuit,0
+APP_022,B2B,Acrobat,0,1,1,0,0,0,Shared,On-Prem,Internal,Adobe,https://get.adobe.com/reader/otherversions/,<Vendor>,<Vendor>,Cisco,1
+APP_024,BSS,Acrobat,0,1,1,0,1,0,Dedicated,On-Prem,Internal,Adobe,<Vendor>,<Vendor>,<Vendor>,Cisco,1
+APP_025,ISP,Oracle E-Business Suite,1,1,1,1,1,0,Dedicated,On-Prem,Internal,Oracle,https://www.oracle.com/applications/ebusiness/,<Vendor>,<Vendor>,Oracle,0
+APP_026,BSS,Oracle E-Business Suite,0,1,1,0,1,0,Dedicated,On-Prem,Internal,Oracle,https://www.oracle.com/applications/ebusiness/,<Vendor>,<Vendor>,Oracle,0
+APP_027,BSS,Cognos Analytics,0,1,1,0,1,0,Dedicated,On-Prem,Internal,IBM,https://www.ibm.com/docs/en/cognos-analytics/11.2.0?topic=manuals,<Vendor>,<Vendor>,IBM,0
+APP_028,OSS,Watson,1,1,1,0,0,0,Shared,On-Prem,Internal,IBM,https://www.ibm.com/watson,<Vendor>,<Vendor>,IBM,0
+APP_029,OSS,SAP ERP,1,1,1,0,0,0,Shared,On-Prem,Internal,SAP,https://www.sap.com/products/erp.html,<Vendor>,<Vendor>,SAP,0
+APP_030,OSS,SuccessFactors,1,0,1,0,0,0,Shared,On-Prem,Internal,SAP,https://www.sap.com/products/hcm.html,<Vendor>,<Vendor>,SAP,1
+APP_031,OSS,Salesforce CRM,0,0,0,0,0,0,Shared,On-Prem,Internal,Salesforce,https://www.salesforce.com/crm/,<Vendor>,<Vendor>,Salesforce,0
+APP_032,DWP,AutoCAD,0,1,0,0,1,0,Shared,On-Prem,Internal,Autodesk,https://www.autodesk.com/products/autocad/overview?term=1-YEAR&tab=subscription&plc=ACDIST,<Vendor>,<Vendor>,<Vendor>,1
+APP_033,BSS,AutoCAD,0,1,1,0,1,0,Dedicated,On-Prem,Internal,Autodesk,https://www.autodesk.com/products/autocad/overview?term=1-YEAR&tab=subscription&plc=ACDIST,<Vendor>,<Vendor>,<Vendor>,1
+APP_035,BSS,Webex,0,0,0,0,1,0,Dedicated,On-Prem,Internal,Cisco,https://help.webex.com/en-us,<Vendor>,<Vendor>,Cisco,1
+APP_037,B2B,Oracle E-Business Suite,1,0,1,0,0,0,SaaS,Cloud,Internal,Oracle,https://www.oracle.com/applications/ebusiness/,<Vendor>,<Vendor>,Oracle,0
+APP_038,B2B,Cognos Analytics,0,0,1,0,0,0,Dedicated,On-Prem,Internal,IBM,https://www.ibm.com/docs/en/cognos-analytics/11.2.0?topic=manuals,<Vendor>,<Vendor>,IBM,0
+APP_039,ISP,Cognos Analytics,1,1,1,0,1,1,Dedicated,On-Prem,Internal,IBM,https://www.ibm.com/docs/en/cognos-analytics/11.2.0?topic=manuals,<Vendor>,<Vendor>,IBM,0
+APP_040,B2B,AutoCAD,1,0,1,0,0,0,SaaS,Cloud,Internal,Autodesk,https://www.autodesk.com/products/autocad/overview?term=1-YEAR&tab=subscription&plc=ACDIST,<Vendor>,<Vendor>,Cisco,1
+APP_042,BSS,Antonic,1,1,1,0,1,0,SaaS,Cloud,Internal,Antonic,www.antonic.ai,<Vendor>,<Vendor>,<Vendor>,1
+APP_043,DWP,Webex,1,0,0,0,1,0,Shared,On-Prem,Internal,Cisco,https://help.webex.com/en-us,<Vendor>,<Vendor>,Cisco,1
+APP_044,WEB,Oracle E-Business Suite,1,1,0,0,0,0, Dedicated ,On-Prem,Internal,Oracle,https://www.oracle.com/applications/ebusiness/,<Vendor>,<Vendor>,Oracle,0
+APP_045,B2B,Webex,1,0,0,0,0,0,Dedicated,On-Prem,Internal,Cisco,https://help.webex.com/en-us,<Vendor>,<Vendor>,Cisco,1
+APP_046,ISP,AutoCAD,1,1,1,0,1,0,Dedicated,On-Prem,Internal,Autodesk,https://www.autodesk.com/products/autocad/overview?term=1-YEAR&tab=subscription&plc=ACDIST,<Vendor>,<Vendor>,Cisco,0
+APP_047,OSS,Java,1,1,1,1,1,1,Dedicated,On-Prem,NA,Oracle,https://www.java.com/en/download/help/index.html,<Vendor>,<Vendor>,Oracle,1
+APP_048,ISP,Webex,1,1,1,0,1,0,Dedicated,On-Prem,Internal,Cisco,https://help.webex.com/en-us,<Vendor>,<Vendor>,Cisco,1
+APP_049,BSS,Photoshop,0,0,0,0,1,0,Dedicated,On-Prem,Internal,Adobe,https://helpx.adobe.com/support/photoshop.html,<Vendor>,<Vendor>,Adobe,0
+APP_051,OSS,Antonic,1,1,1,1,1,0,Shared,On-Prem,Internal,Antonic,www.antonic.ai,<Vendor>,<Vendor>,<Vendor>,1
