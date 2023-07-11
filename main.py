@@ -1,5 +1,6 @@
 import streamlit as st
 from langchain.agents import create_csv_agent
+from langchain.chat_models import ChatOpenAI
 from langchain.llms import OpenAI
 from dotenv import load_dotenv
 import pandas as pd
@@ -26,13 +27,13 @@ def main():
         tfile.write(csv_file.getvalue())
         
         
-        agent = create_csv_agent(OpenAI(temperature=0), tfile.name, Verbose=True)
+        agent_gpt = create_csv_agent(ChatOpenAI(temperature=0, model_name = 'gpt-4'), tfile.name, Verbose=True)
         
         user_question = st.text_input("Ask a question about your csv:")
         
         if user_question is not None and user_question != "":
             with st.spinner(text="In Progress..."):
-                st.write(agent.run(user_question))
+                st.write(agent_gpt.run(user_question))
     
 if __name__ == "__main__":
     main()
