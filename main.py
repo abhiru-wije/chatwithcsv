@@ -16,7 +16,7 @@ st.set_page_config(
 )     
 
 def main():
-    logo_url = "https://antonic.ai/wp-content/themes/direct/images/logo.png"
+    logo_url = "https://antonic.ai/wp-content/themes/direct/images/logo2.png "
 
     st.markdown(
         f"""
@@ -28,8 +28,8 @@ def main():
         background-color: #000000;
         }}
         </style>
-        <div style="position: absolute; top: 1px; left: 0px; margin-bottom: 15px;">
-            <img src="{logo_url}" width="100">
+        <div style="position: absolute; top: -20px; left: 0px; margin-bottom: 15px;">
+            <img src="{logo_url}" width="100" alt="image">
         </div>
         """,
         unsafe_allow_html=True,
@@ -43,9 +43,9 @@ def main():
     else:
         print("OPENAI_API_KEY is set")
        
-    st.header("Ask Your CSV Agent" )
+    st.header("🦜️CSV Agent" )
     
-    csv_file = st.file_uploader("Upload a csv file", type="csv")
+    csv_file = st.file_uploader("Upload a .csv file", type="csv")
     if csv_file is not None:
         tfile = tempfile.NamedTemporaryFile(delete=False)
         tfile.write(csv_file.getvalue())
@@ -53,7 +53,7 @@ def main():
         
         agent_gpt = create_csv_agent(ChatOpenAI(temperature=0, model_name = 'gpt-4'), tfile.name, Verbose=True)
         
-        user_question = st.text_input("Ask a question about your csv:")
+        user_question = st.text_input("Ask a question about your csv (Please provide questions only related to the csv):")
         
         if user_question is not None and user_question != "":
             with st.spinner(text="In Progress..."):
