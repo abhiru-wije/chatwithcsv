@@ -43,7 +43,7 @@ def main():
     else:
         print("OPENAI_API_KEY is set")
        
-    st.header("Ask Your CSV Agent", )
+    st.header("Ask Your CSV Agent" )
     
     csv_file = st.file_uploader("Upload a csv file", type="csv")
     if csv_file is not None:
