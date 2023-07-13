@@ -7,8 +7,33 @@ import pandas as pd
 import os
 import tempfile
 
+st.set_page_config(
+    page_title="Ask Your CSV",
+    page_icon="🦜️",
+    layout="wide",
+    initial_sidebar_state="expanded"
+    
+)     
 
 def main():
+    logo_url = "https://antonic.ai/wp-content/themes/direct/images/logo.png"
+
+    st.markdown(
+        f"""
+        <style>
+        body {{
+            background-color: #000000;
+        }}
+        .reportview-container .main .block-container{{
+        background-color: #000000;
+        }}
+        </style>
+        <div style="position: absolute; top: 15px; left: 15px;">
+            <img src="{logo_url}" width="100">
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
     
     load_dotenv()
     
@@ -17,9 +42,8 @@ def main():
         exit(1)
     else:
         print("OPENAI_API_KEY is set")
-        
-    st.set_page_config(page_title="Ask Your CSV")
-    st.header("Ask Your CSV")
+       
+    st.header("Ask Your CSV", )
     
     csv_file = st.file_uploader("Upload a csv file", type="csv")
     if csv_file is not None:
