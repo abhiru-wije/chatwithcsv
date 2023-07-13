@@ -28,7 +28,7 @@ def main():
         background-color: #000000;
         }}
         </style>
-        <div style="position: absolute; top: 1px; left: 0px; bottom: 5px">
+        <div style="position: absolute; top: 1px; left: 0px; bottom: 5px;">
             <img src="{logo_url}" width="100">
         </div>
         """,
@@ -43,7 +43,7 @@ def main():
     else:
         print("OPENAI_API_KEY is set")
        
-    st.header("Ask Your CSV", )
+    st.header("Ask Your CSV Agent", )
     
     csv_file = st.file_uploader("Upload a csv file", type="csv")
     if csv_file is not None:
