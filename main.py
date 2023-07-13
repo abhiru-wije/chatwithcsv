@@ -28,7 +28,7 @@ def main():
         background-color: #000000;
         }}
         </style>
-        <div style="position: absolute; top: 1px; left: 0px; bottom: 5px;">
+        <div style="position: absolute; top: 1px; left: 0px; margin-bottom: 15px;">
             <img src="{logo_url}" width="100">
         </div>
         """,
